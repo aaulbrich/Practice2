@@ -13,9 +13,9 @@ int main()
 		cout << "Enter a base number:" << endl;
 		cin >> base;
 		if (cin.fail()) {
-			cout << "Enter a valid number" << endl;
 			cin.clear();
-			cin.ignore(numeric_limits<streamsize>::max(), '/n');
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
+			cout << "Enter a valid number" << endl;
 		}
 		else if (cin.good()) {
 			cout << "Enter the exponent number:" << endl;
@@ -37,7 +37,7 @@ int main()
 			else if ((base || power) == 0 || cin.fail()) {
 				cout << "Enter a valid number" << endl;
 				cin.clear();
-				cin.ignore(numeric_limits<streamsize>::max(), '/n');
+				cin.ignore(numeric_limits<streamsize>::max(), '\n');
 			}
 		}
 	}
