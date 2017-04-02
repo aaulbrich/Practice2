@@ -29,6 +29,9 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Peers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Practice2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

@@ -142,6 +142,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Peers.cpp" />
     <ClCompile Include="Practice2.cpp" />
     <ClCompile Include="Practice3.cpp" />
     <ClCompile Include="stdafx.cpp">
